@@ -190,3 +190,81 @@ Raw Student Dataset
 - Robustness against noisy and heterogeneous data
 - End-to-end educational analytics framework
 - Suitable for large-scale educational environments
+
+
+
+## Prerequisites
+
+Before running the project, ensure that the following software and libraries are installed:
+
+### Software Requirements
+
+- Python 3.10 or later
+- Jupyter Notebook / JupyterLab (Optional)
+- Git
+- VS Code, PyCharm, or any Python IDE
+
+### Hardware Requirements
+
+- Minimum 8 GB RAM
+- Intel i5/Ryzen 5 Processor or higher
+- 5 GB free disk space
+- GPU support (Optional for large datasets)
+
+
+
+##  Required Modules
+
+Install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Core Libraries
+
+```python
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+tensorflow
+keras
+xgboost
+lightgbm
+joblib
+tqdm
+```
+
+### Install Manually
+
+```bash
+pip install numpy pandas scipy matplotlib seaborn
+pip install scikit-learn tensorflow keras
+pip install xgboost lightgbm
+pip install joblib tqdm
+```
+
+### Classification Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+
+### Regression Metrics
+
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- R² Score
+
+### Confidence Metrics
+
+- Confidence Score Distribution
+- Prediction Reliability Index
+- Calibration Error
+
