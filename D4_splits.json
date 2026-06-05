@@ -1,0 +1,44 @@
+{
+  "_note": "These are placeholder entries. Replace with exact train/test index arrays from your experimental runs. Use src.preprocessing.save_splits() to generate these files.",
+  "dataset": "D2",
+  "n_total": 6607,
+  "K": 3,
+  "test_size": 0.2,
+  "seeds": [
+    42,
+    77,
+    101,
+    202,
+    555
+  ],
+  "42": {
+    "n_train": 5286,
+    "n_test": 1321,
+    "train_indices": "[replace with actual indices]",
+    "test_indices": "[replace with actual indices]"
+  },
+  "77": {
+    "n_train": 5286,
+    "n_test": 1321,
+    "train_indices": "[replace with actual indices]",
+    "test_indices": "[replace with actual indices]"
+  },
+  "101": {
+    "n_train": 5286,
+    "n_test": 1321,
+    "train_indices": "[replace with actual indices]",
+    "test_indices": "[replace with actual indices]"
+  },
+  "202": {
+    "n_train": 5286,
+    "n_test": 1321,
+    "train_indices": "[replace with actual indices]",
+    "test_indices": "[replace with actual indices]"
+  },
+  "555": {
+    "n_train": 5286,
+    "n_test": 1321,
+    "train_indices": "[replace with actual indices]",
+    "test_indices": "[replace with actual indices]"
+  }
+}

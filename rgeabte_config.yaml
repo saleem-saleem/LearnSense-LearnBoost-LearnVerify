@@ -1,0 +1,14 @@
+# CCSG-PR (Stage 3) Hyperparameters
+# Reference: Table 7 of the manuscript
+ccsgpr:
+  d_h:      64     # hidden state dimension
+  k:        0.5    # relevance-score decay factor (Equation 38)
+  tau_r:    0.6    # feature-activation threshold (Equation 39)
+  delta:    0.10   # uncertainty acceptance threshold (Equation 50)
+  xi:       0.01   # selective-update min error (Equation 52)
+  eta:      0.001  # Adam learning rate
+  epochs:   200    # max training epochs
+  patience: 15     # early stopping patience (restore_best_weights=True)
+  batch:    full   # full-batch gradient descent (N_tr = 519-8000)
+  optimizer: Adam  # beta1=0.9, beta2=0.999, eps=1e-7
+  init:     Xavier_normal  # weight initialisation; biases = zero

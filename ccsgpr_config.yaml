@@ -1,0 +1,6 @@
+# TG-PSF (Stage 1) Hyperparameters
+# Reference: Table 5 of the manuscript
+tgpsf:
+  delta:        0.5    # adaptive threshold sensitivity
+  lambda_reg:   0.01   # ridge regularisation for projection matrix
+  epsilon:      0.10   # max normalised projection error (Equation 21)
