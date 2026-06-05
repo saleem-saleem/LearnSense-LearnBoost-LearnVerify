@@ -3,7 +3,6 @@
 ### A Three-Stage Framework for Confidence-Aware Student Performance Prediction
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Research](https://img.shields.io/badge/Research-Educational%20AI-success.svg)]()
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Ensemble%20Learning-orange.svg)]()
 
