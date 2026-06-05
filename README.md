@@ -19,7 +19,7 @@ An adaptive ensemble learning mechanism that leverages regression-guided error e
 
 A confidence-aware validation stage that refines predictions using similarity-driven reasoning and calibrated confidence measures, improving the reliability and trustworthiness of final outcomes.
 
-### 🚀 Unified Learning Framework
+### Unified Learning Framework
 
 Unlike traditional approaches that perform **feature selection**, **prediction**, and **validation** as separate processes, **LearnSense–LearnBoost–LearnVerify** integrates these stages into a unified pipeline. This synergistic design enhances:
 
