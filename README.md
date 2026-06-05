@@ -1,46 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LearnSense–LearnBoost–LearnVerify</title>
-</head>
-<body>
+##  Overview
 
-    <h2>LearnSense–LearnBoost–LearnVerify</h2>
+**LearnSense–LearnBoost–LearnVerify** is a novel three-stage Artificial Intelligence (AI) framework designed to improve **student performance prediction**, **learning analytics**, and **confidence-aware educational decision-making**.
 
-    <p>
-        <strong>LearnSense–LearnBoost–LearnVerify</strong> is a novel three-stage
-        Artificial Intelligence (AI) framework designed to improve
-        <strong>student performance prediction</strong>,
-        <strong>learning analytics</strong>, and
-        <strong>confidence-aware educational decision-making</strong>.
-    </p>
+The framework integrates three complementary components:
 
-    <p>The framework integrates the following components:</p>
+### 🔹 LearnSense (TG-PSF)
+**Target-Guided Projection and Similarity Filtering**
 
-    <ul>
-        <li>
-            <strong>LearnSense (TG-PSF)</strong> –
-            Target-Guided Projection and Similarity Filtering
-        </li>
-        <li>
-            <strong>LearnBoost (RGEAB-TE)</strong> –
-            Regression-Guided Error-Adaptive Boosted Tree Ensemble
-        </li>
-        <li>
-            <strong>LearnVerify (CCSG-PR)</strong> –
-            Confidence-Calibrated Similarity-Guided Prediction Refinement
-        </li>
-    </ul>
+A feature optimization module that identifies the most relevant student attributes by combining target-guided projection analysis with similarity-based filtering, reducing redundancy while preserving predictive information.
 
-    <p>
-        Unlike traditional approaches that independently perform
-        feature selection, prediction, and validation, this framework
-        combines these processes into a unified pipeline to achieve
-        improved <strong>accuracy</strong>, <strong>robustness</strong>,
-        and <strong>reliability</strong> in educational data analytics.
-    </p>
+### 🔹 LearnBoost (RGEAB-TE)
+**Regression-Guided Error-Adaptive Boosted Tree Ensemble**
 
-</body>
-</html
+An adaptive ensemble learning mechanism that leverages regression-guided error estimation and boosted tree models to enhance prediction accuracy and generalization across diverse educational datasets.
+
+### 🔹 LearnVerify (CCSG-PR)
+**Confidence-Calibrated Similarity-Guided Prediction Refinement**
+
+A confidence-aware validation stage that refines predictions using similarity-driven reasoning and calibrated confidence measures, improving the reliability and trustworthiness of final outcomes.
+
+### 🚀 Unified Learning Framework
+
+Unlike traditional approaches that perform **feature selection**, **prediction**, and **validation** as separate processes, **LearnSense–LearnBoost–LearnVerify** integrates these stages into a unified pipeline. This synergistic design enhances:
+
+- ✅ Prediction Accuracy
+- ✅ Model Robustness
+- ✅ Decision Reliability
+- ✅ Confidence-Aware Learning Analytics
+- ✅ Educational Decision Support
+
+The framework provides a comprehensive solution for intelligent educational analytics, enabling more accurate identification of student performance patterns and supporting data-driven academic interventions.
